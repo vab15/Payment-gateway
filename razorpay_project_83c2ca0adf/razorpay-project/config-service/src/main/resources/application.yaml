@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-service
+
+  cloud:
+    config.server.git:
+      uri: https://github.com/Anuj-Kumar-Sharma/distributed-razrorpay-config
+      username: anuj-kumar-sharma
+      password: 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
+      default-label: master
+
+server.port: 8888
+
+
