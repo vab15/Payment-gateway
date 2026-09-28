@@ -7,7 +7,7 @@ spring:
       uri:
       username:
       password:
-      default-label: master
+      default-label:
 
 server.port: 8888
 
